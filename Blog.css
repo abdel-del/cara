@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+.readmore {
+  background: url(./banner/b19.jpg) center/cover;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.product h1,
+.product p {
+  color: white;
+}
+
+.Cotton-section {
+  padding: 100px 100px 0 100px;
+}
+
+.jersey-countiner {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+.women-page {
+  margin: 40px;
+  flex: 0 0 50%;
+}
+.women-page img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.continue-reading h1 {
+  font-size: 25px;
+}
+.continue-reading p {
+  text-align: left;
+}
+.continue-reading a {
+  text-transform: uppercase;
+  color: black;
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+}
+.continue-reading a::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  right: -60px;
+  top: 4px;
+}
+.continue-reading a:hover {
+  color: #088178;
+}
+
+.jersey-countiner h2 {
+  position: absolute;
+  top: 5px;
+  left: 40px;
+  z-index: -1;
+  font-size: 70px;
+  color: #c9cbce;
+}
+
+.Jersey-zip {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+.two-women {
+  margin: 40px;
+  flex: 0 0 50%;
+}
+.two-women img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.Lorem h1 {
+  font-size: 25px;
+}
+.Lorem p {
+  text-align: left;
+}
+.Lorem a {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+}
+.Lorem a:hover {
+  color: #088178;
+}
+
+.Jersey-zip h2 {
+  position: absolute;
+  z-index: -1;
+  top: 5px;
+  left: 45px;
+  font-size: 70px;
+  color: #c9cbce;
+}
+
+.div-countiner {
+  display: flex;
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+.photo-jeep {
+  width: 100%;
+}
+.photo-jeep {
+  margin: 40px;
+  flex: 0 0 50%;
+}
+.photo-jeep img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+.consectetur h1 {
+  font-size: 25px;
+}
+.consectetur p {
+  text-align: left;
+}
+
+.consectetur a {
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: black;
+}
+.div-countiner h2 {
+  position: absolute;
+  z-index: -1;
+  left: 40px;
+  top: 0px;
+  font-size: 70px;
+  color: #c9cbce;
+}

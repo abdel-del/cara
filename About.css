@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* to not add the padding and borders to the width */
+  box-sizing: border-box;
+}
+
+.knowus {
+  background: url(./about/banner.png) center/cover;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.knowus h1,
+.knowus p {
+  color: white;
+}
+
+/* section 2 who we are */
+
+.About-section {
+  padding: 40px 80px;
+}
+
+.div-countiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.women,
+.disc {
+  flex: 0 0 calc(50% - 2rem);
+}
+
+.women img {
+  width: 100%;
+}
+.disc p {
+  text-align: left;
+}
+.disc abbr {
+  margin-bottom: 1rem;
+  display: inline-block;
+}
+.disc marquee {
+  background-color: #ccc;
+}
+
+.vid {
+  text-align: center;
+}
+video {
+  width: 70%;
+  height: 100%;
+  border-radius: 20px;
+}
+.download-countiner h2 {
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.download-countiner a {
+  text-decoration: underline;
+}
+
+/* section 3 Download Our App */
+
+.games-countiner {
+  padding: 40px 80px;
+}
+.div-games {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+gap: 10px;
+}
+.div-games div {
+  border: 1px solid #dddddd;
+  padding: 16px 20px;
+}
+.div-games h6 {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 17px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #379777;
+}
+
+.div-games .photoone {
+  background-color: #ffcbcba7;
+}
+.div-games .phototwo {
+  background-color: #81a2639d;
+}
+.div-games .photothree {
+  background-color: #80c4e963;
+}
+.div-games .photofour {
+  background-color: #7776b38b;
+}
+.div-games .photofive {
+  background-color: #e8c5e5d4;
+}
+.div-games .photosix {
+  background-color: #fcdd94ac;
+}
